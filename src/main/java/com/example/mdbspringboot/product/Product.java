@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Document(collection = "products")
@@ -23,7 +24,7 @@ public class Product {
     private String iconPrep;
     private String iconCook;
     private double iconPrice;
-    private   Bonus[] bonusBundling ;
+    private   List<Bonus> bonusBundling = new ArrayList<>();
 
 
 }
