@@ -1,0 +1,12 @@
+# Konfigurasi Host
+server:
+  address: 0.0.0.0
+
+# Konfigurasi Port
+#port: 3000
+
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://rads:12345678admin@cluster0.zcmjxtk.mongodb.net/?retryWrites=true&w=majority
+      database : Pizza-Delivery-Order
