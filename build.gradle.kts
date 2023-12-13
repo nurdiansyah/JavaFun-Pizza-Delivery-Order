@@ -4,6 +4,9 @@
  * This project uses @Incubating APIs which are subject to change.
  */
 
+subprojects {
+
+
 plugins {
     `java-library`
     `maven-publish`
@@ -38,4 +41,5 @@ tasks.withType<JavaCompile>() {
 
 tasks.withType<Javadoc>() {
     options.encoding = "UTF-8"
+}
 }
