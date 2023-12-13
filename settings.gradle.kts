@@ -10,3 +10,5 @@
 //}
 
 rootProject.name = "pizza-delivery-mvn"
+include("order")
+include("product")
